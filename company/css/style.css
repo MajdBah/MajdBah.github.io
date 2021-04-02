@@ -554,12 +554,15 @@ footer .copyright p {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
     }
+
     header .overlay .slider .carousel-inner .carousel-item .carousel-caption h3 {
         font-size: 30px;
     }
+
     header .overlay .slider .carousel-inner .carousel-item .carousel-caption {
         bottom: 5%;
     }
+
     section.services .card {
         height: 290px;
     }
@@ -570,80 +573,105 @@ footer .copyright p {
         max-width: 100%;
         flex-direction: row-reverse;
     }
+
     .navbar .navbar-toggler {
         outline: none;
         margin: 0 !important;
     }
+
     .navbar .navbar-toggler span {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     nav.navbar .navbar-brand img {
         width: 75%;
     }
+
     .navbar {
         padding: .5rem 0rem;
     }
+
     nav.navbar .container {
         width: 100%;
     }
+
     nav.navbar .navbar-brand img {
         width: 80%;
     }
+
     nav.navbar .navbar-collapse {
         background-color: #16aeca;
     }
+
     nav.navbar.noTransparrent .navbar-collapse {
         background-color: #ffffff;
     }
+
     .carousel-caption {
         z-index: 6;
     }
+
     section.gallery .work-gallery .overlay-gallery .gallery-text h3 {
         font-size: 18px;
         line-height: 36px;
         margin-bottom: 10px;
     }
+
     section.gallery .work-gallery .overlay-gallery .gallery-text p {
         font-size: 14px;
         line-height: 28px;
         margin-bottom: 30px;
     }
+
     section.gallery .work-gallery .overlay-gallery .gallery-text a.visit {
         font-size: 14px;
         line-height: 40px;
     }
+
     section.contacts .cmxform {
         width: 100%;
     }
+
     section.gallery .work-gallery .overlay-gallery a.close {
         Width: 45px;
         margin-top: -25px !important;
     }
+
     section.gallery .work-gallery .overlay-gallery:target img {
         margin-top: 51px;
     }
 }
 
 @media (max-width: 575px) {
+
     header .overlay .slider .carousel-control-prev,
     header .overlay .slider .carousel-control-next {
         display: none;
     }
+
     header .overlay .slider .carousel-inner .carousel-item .carousel-caption {
         left: 2%;
         right: 2%;
     }
+
+    header .overlay .slider {
+        padding-top: 70px;
+    }
+
     .work-gallery .col-md>.col-sm>a {
         display: block !important;
     }
+
     .work-gallery .col-md>.col-sm>a img {
         width: 100%;
     }
+
     section.gallery .work-gallery .overlay-gallery img {
         width: 50%;
     }
+
     section.gallery .work-gallery .overlay-gallery:target img {
         margin-top: 0;
     }
