@@ -9,7 +9,7 @@ $(document).ready(function() {
         $("#wrap").toggleClass("toggled");
         var right = $(".sidebar").css("right");
         if (right == '0px') {
-            $(".sidebar").css({ 'right': '-17rem' });
+            $(".sidebar").css({ 'right': '-18rem' });
             $(".layer").fadeOut();
         } else {
             $(".sidebar").css({ 'right': '0px' });
@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
 
     $(".layer").click(function() {
-        $(".sidebar").css({ 'right': '-17rem' });
+        $(".sidebar").css({ 'right': '-18rem' });
         $(".layer").fadeOut();
     });
 

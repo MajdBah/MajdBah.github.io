@@ -95,6 +95,9 @@ time {
 
 .card {
     transition: transform .5s;
+        margin: 0 auto;
+        width: 90%;
+    
 }
 
 .card-top-image {
@@ -113,7 +116,7 @@ time {
 .sidebar {
     position: fixed;
     z-index: 4;
-    right: -17rem;
+    right: -18rem;
     transition: all .5s ease-in-out;
     height: 100%;
     background-color: #fff;
