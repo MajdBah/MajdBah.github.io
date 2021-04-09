@@ -120,5 +120,9 @@ footer{
     .heading h2{
       width: 80%;
     }
+
+    .jumbotron {
+      padding: 0rem 1rem !important;
 }
 
+}
