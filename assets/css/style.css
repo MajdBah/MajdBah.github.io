@@ -98,8 +98,27 @@ footer{
   }
 }
 
+@media (max-width:856px){
+  .heading h2{
+    width: 35%;
+  }
+}
+
 @media (max-width:576px){
   .jumbotron .container{
     height: 320px ;
     }
+
+    .layer h1{
+      font-size: 35px;
+    }
+
+    .layer p{
+      font-size: 17px;
+    }
+
+    .heading h2{
+      width: 80%;
+    }
 }
+
