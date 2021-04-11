@@ -1,5 +1,5 @@
-$(document).ready(function () {
-    $(window).scroll(function () {
+$(document).ready(function() {
+    $(window).scroll(function() {
         if ($(this).scrollTop() >= 500) {
             $("#navBar").addClass("noTransparrent");
         } else {
@@ -7,12 +7,12 @@ $(document).ready(function () {
         }
     });
 
-    $(document).ready(function () {
-        $("a.scroll").on('click', function (event) {
+    $(document).ready(function() {
+        $("a.scroll").on('click', function(event) {
 
             var hash = this.hash;
 
-            $('html, body').animate({ scrollTop: $(hash).offset().top - 100 }, 800, function () { });
+            $('html, body').animate({ scrollTop: $(hash).offset().top - 100 }, 800, function() {});
 
         });
     });
@@ -22,7 +22,7 @@ $(document).ready(function () {
     $('#timer3').countTo(10000);
     $('#timer4').countTo(30);
 
-    $(function () {
+    $(function() {
         $("#commentForm").validate();
     });
 

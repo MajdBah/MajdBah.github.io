@@ -2,6 +2,10 @@
     transform: translateY(0%);
 }
 
+.pub-comments .card.mt-5.mb-3 {
+    width: 100% !important;
+}
+
 .watch-page .watch-icons {
     position: absolute;
     bottom: 5px;
