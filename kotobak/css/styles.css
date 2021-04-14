@@ -10352,6 +10352,7 @@ a.text-dark:focus, a.text-dark:hover {
     border-color: #dee2e6;
   }
 }
+@charset "UTF-8";
 @font-face {
   font-family: GE-SS;
   src: url(../fonts/GE_SS_Two_Medium.otf);
@@ -10378,6 +10379,16 @@ body {
   border: 0;
   font-size: 25px;
 }
+.navbar .navbar-toggler:hover {
+  color: #e2693c;
+}
+.navbar .navbar-toggler:focus {
+  color: #e2693c;
+  outline: none;
+}
+.navbar .navbar-toggler:active {
+  color: #e2693c;
+}
 .navbar ul li {
   padding-right: 10px;
 }
@@ -10392,15 +10403,27 @@ body {
   color: #e2693c !important;
 }
 
-.custom-heading {
+.top-heading {
   font-size: 40px !important;
   line-height: 60px;
 }
 
 section.about {
+  background-image: url(../images/library-books.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 35px 0px;
+  color: #e9ecef;
+  position: relative;
+}
+section.about .layer {
   background-color: #e2693c;
-  padding: 30px 0px;
-  color: #e0e0e0;
+  opacity: 0.89;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 section.about .about-description {
   padding-top: 3rem;
@@ -10415,6 +10438,167 @@ section.about .books-img img {
 section.about p {
   line-height: 27px;
   text-align: justify;
+}
+
+.custom-heading {
+  text-align: center;
+  padding: 50px 0px;
+}
+.custom-heading::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: block;
+  color: #e2693c;
+  font-size: 50px;
+}
+
+.latest-books .custom-heading::before {
+  content: "";
+}
+.latest-books .card {
+  height: 100%;
+}
+.latest-books .card .card-body {
+  position: relative;
+}
+.latest-books .card .card-body .available {
+  position: absolute;
+  top: 30px;
+  background-color: #e2693c;
+  color: white;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 300;
+  text-align: center;
+  padding: 3px 10px;
+}
+.latest-books .card .star-rating {
+  color: #e2693c;
+}
+
+.custom-btn {
+  background-color: #e2693c;
+  border-color: #e2693c;
+}
+.custom-btn:hover {
+  background-color: #bb4e26;
+  border-color: #e2693c;
+}
+.custom-btn:focus {
+  background-color: #bb4e26 !important;
+  box-shadow: none !important;
+  border-color: #e2693c !important;
+}
+.custom-btn:active {
+  background-color: #bb4e26;
+}
+
+.contact-us {
+  background-color: #e9ecef;
+  padding-bottom: 60px;
+}
+.contact-us .custom-heading::before {
+  content: "";
+}
+.contact-us form input:focus,
+.contact-us form textarea:focus {
+  box-shadow: none !important;
+  border-color: #e2693c;
+}
+.contact-us .contact-info {
+  padding: 5px;
+  margin: 0px 15px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: right;
+}
+.contact-us .contact-info ul li {
+  font-size: 20px;
+  line-height: 30px;
+  color: #483f38;
+}
+.contact-us .contact-info ul li i {
+  font-size: 25px;
+  padding-top: 3px;
+  padding-left: 10px;
+  color: #e2693c;
+}
+
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  z-index: 20;
+  border: none;
+  outline: none;
+  background-color: #e2693c;
+  color: #e9ecef;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 10%;
+  font-size: 25px;
+}
+#backToTop:hover {
+  background-color: rgba(226, 105, 60, 0.85);
+}
+
+.footer {
+  padding: 20px 0px 15px;
+  color: #483f38;
+}
+.footer .copyright {
+  line-height: 30px;
+}
+.footer .social-icons ul li a {
+  color: #483f38;
+  font-size: 25px;
+}
+.footer .social-icons ul li a:hover {
+  color: #e2693c;
+}
+
+@media (max-width: 991px) {
+  .navbar ul li {
+    padding-right: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .top-heading {
+    text-align: center;
+  }
+
+  .custom-heading {
+    padding: 25px 0px;
+  }
+
+  .map {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 576px) {
+  section.about .about-description {
+    padding-right: 15px !important;
+  }
+
+  .top-heading {
+    font-size: 30px !important;
+  }
+
+  .copyright {
+    text-align: center;
+    float: none !important;
+  }
+
+  .social-icons {
+    text-align: center;
+    float: none !important;
+  }
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 @charset "UTF-8";
 /*!
